@@ -45,4 +45,5 @@ dependencies {
     implementation(group: 'eu.freme-project', name: 'epublib-core', version: '0.5') {
         exclude group: 'xmlpull'
     }
+    implementation 'org.jsoup:jsoup:1.11.2'
 }
